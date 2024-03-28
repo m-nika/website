@@ -1,0 +1,147 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ff73b3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #ffbdbd;
+    margin-bottom: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffacac;
+    transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+    background-color: #ff9494;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+section h2 {
+    color: #ff73b3;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.product {
+    width: 30%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%; /* Ensure images fill their containers */
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.product p {
+    opacity: 0.8;
+}
+
+footer {
+    text-align: center;
+    background-color: #ff73b3;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Contact form */
+#contact {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ff73b3;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact input[type="submit"] {
+    background-color: #ff73b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #ff5aa6;
+}
+
+/* Center the logo */
+header h1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Evenly space product images horizontally */
+#products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
